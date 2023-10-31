@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+    /* border: 2px solid red; */
+}
+.navbar ul{
+    display: flex;
+    color: white;
+}
+.navbar li{
+    /* border: 2px solid red; */
+    list-style: none;
+    margin-right: 20px;
+  
+}
+.navbar .brand{
+    font-size: 30px;
+    font-family: monospace;
+    
+}
+.navbar .brand b{
+    color: white;
+    position: relative;
+    top: -20px;
+    margin: 20px;
+}
+.navhead{
+  align-self: center;
+  padding: 5px;
+  font-size: 20px;
+  font-family:fantasy ;
+}
+.container{
+    border: 2px solid black;
+    height: 900px;
+    background-color: bisque;
+
+ 
+}
+.insidecontainer{
+    /* border: 2px solid yellow; */
+    position: relative;
+    top: 100px;
+    height: 700px;
+    width: 70%;
+   left: 220px;
+   border-radius: 19px;
+   /* background-color: black; */
+   background-image: url(bg.jpg);
+   background-size: cover;
+
+}
+.insidecontainer h1{
+    position: relative;
+    top: 40px;
+    left: 19px;
+    color: white;
+
+}
+.insidecontainer div{
+    height: 45px;
+    /* border: 2px solid red; */
+    display: flex;
+    position: relative;
+    border-radius: 34px;
+    top: 75px;
+    background-color: white;
+}
+ .music{
+    height: 30px;
+    margin:7px;
+    width: 65%;
+    display: flex;
+    left: 20px;
+
+}
+.musiclogo img{
+    border-radius:50%;
+    position: relative;
+    left: 20px;
+    height: 40px;
+    top: 2px;
+}
+.songname{
+    position: relative;
+    left: 90px;
+
+    /* border: 2px solid red; */
+    top:-30px;
+    display:block;
+    width:500px
+}
+.timestamp{
+    position: relative;
+    left:100px ;
+    top: 15px;
+    /* border: 2px solid red; */
+}
+.music i{
+    position: relative;
+
+    left: 107px;
+    top: 17px;
+    /* border: 2px solid red; */
+
+}
+.play :hover{
+    cursor: pointer;
+}
+.music8 img{
+    width: 40px;
+
+}
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: fixed; 
+    bottom: 0;
+    width: 100%; 
+}
+.songInfo img{
+    width: 45px;
+}
+.icons{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+    left: -550px;
+    top: 40px;
+}
+#progressbar{
+    /* border: 2px solid red; */
+    position: relative;
+    left: 100px;
+    top: -10px;
+    width: 80%;
+}
+#progressbar :hover{
+    cursor: pointer;
+}
+.icons :hover{
+    cursor: pointer;
+}
+.songInfo{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    left: 150px;
+
+}
+.gif{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
